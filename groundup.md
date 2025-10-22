@@ -1,15 +1,31 @@
-This page explains how to install ollama in linux system. 
+# This page explains how to install ollama in linux system #
 
-Note
+### - Note ###
 
 You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 
-
-
-** for installing Olalama ***
+### -For installing Olalama ###
 
   curl -fsSL https://ollama.com/install.sh | sh
 
-*** for installing Model - I have chosen small model - not to kill my machine ***
+### -For installing Model - I have chosen small model - not to kill my machine ###
 
   ollama run llama3.2:1
+
+### -Working with Ollama ###
+
+  sudo systemctl stop ollama (to stop)
+
+  sudo systemctl start ollama (to start it manually)
+
+  sudo systemctl status ollama (to check if it's running)
+
+### - Run / Intercat with Olama ###
+
+  ollama run llama3.2:1b "Who are you" 
+
+#### Response could be - I'm an artificial intelligence model known as Llama. Llama stands for "Large Language Model Meta AI."####
+
+## Visit the link for Ollama git page ##
+
+  https://github.com/ollama/ollama
