@@ -1,4 +1,4 @@
-# This page explains how to install ollama in PC - linux system #
+# This page explains how to install ollama in PC with Linux OS #
 
 ### - Note ###
 
